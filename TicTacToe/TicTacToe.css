@@ -1,0 +1,61 @@
+#navbar {
+  background-color: rgb(84, 84, 230);
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 3px solid black;
+  font-weight: bold;
+}
+#res {
+  margin: 50px auto;
+  width: 15%;
+  height: 80px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 32px;
+  padding-top: 30px;
+}
+.win {
+  background-color: rgb(54, 116, 42);
+  color: aliceblue;
+}
+.lose {
+  background-color: rgb(214, 99, 95);
+  color: aliceblue;
+}
+.tie {
+  background-color: rgb(228, 209, 42);
+  color: black;
+}
+img {
+  width: 100px;
+}
+* {
+  font-family: monospace;
+  padding: 0;
+  margin: 0;
+}
+table {
+  margin: 0 auto;
+  border: 5px solid rgb(84, 84, 230);
+  cursor: pointer;
+}
+table th {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+}
+@media screen and (max-width: 1000px) {
+  table th {
+    width: 100px;
+    height: 100px;
+  }
+  img {
+    width: 50px;
+  }
+  #res {
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+  }
+}
